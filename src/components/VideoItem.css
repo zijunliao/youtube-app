@@ -1,0 +1,17 @@
+.video-list-items {
+    position: relative;
+}
+
+.thumbnail-des {
+    position: relative;
+}
+
+.thumbnail-des {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(54, 69, 79, .7);
+    color: white;
+}
+
