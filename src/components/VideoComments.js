@@ -5,7 +5,7 @@ class VideoComment extends React.Component {
 
     renderList() {
         if (this.props.comments) {
-            const comments = this.props.comments.items;
+            const comments = this.props.comments;
             return (
                 comments.map(c => {
                     return (<div className="item" key={c.id}>

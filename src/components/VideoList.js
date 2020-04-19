@@ -4,7 +4,6 @@ import VideoItem from './VideoItem';
 
 class VideoList extends React.Component {
     renderList() {
-        console.log("Fixeddddd", this.props.videos);
         return this.props.videos.map(v => <VideoItem key={v.id.videoId} video={v} onSelectedVideo={this.props.onSelectedVideo}/>)
     }
 
